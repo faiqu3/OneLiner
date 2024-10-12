@@ -93,3 +93,5 @@ cat jsfiles.txt | while read url; do python3 ~/pentest/tools/secretfinder/Secret
 x8 -u x8url -w param -X GET -L -m 25 -o x8report -x http://127.0.0.1:8080 -H 'Cookie: test=test'
 
 ```
+
+### 11. Nuclei

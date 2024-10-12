@@ -1,5 +1,4 @@
 # OneLiner ✍🏻
-
 ## This is a custom oneliner scripts used for bug bounty
 
 ### 1. Gathering ips 

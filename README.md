@@ -2,7 +2,7 @@
 
 ## This is a custom oneliner scripts used for bug bounty
 
-#### 1. Gathering ips
+#### 1. Gathering ips 
 
 * Below commands gather iprange using ASN number & usings prips we get ips
 
@@ -11,13 +11,13 @@ whois -h whois.radb.net  -- '-i origin AS397015' | grep -Eo "([0-9.]+){4}/[0-9]+
 for i in $(cat ASN_ips); do prips $i >> ips; done
 ```
 
-#### 2. Gathering subdomains
+#### 2. Gathering subdomains 
 
 ```
 bbot -t carvanadomainslist -f subdomain-enum -o subs -y
 ```
 
-#### 3.Vhost bruteforce
+#### 3.Vhost bruteforce 
 
 * Gather all the ips of the organisation (eg: fbips)
 * Gather all the domains of the organisation (eg: fbsubs)

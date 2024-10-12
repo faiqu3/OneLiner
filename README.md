@@ -1,6 +1,6 @@
-# OneLiner ✍🏻: This is a custom oneliner scripts used for bug bounty
+# OneLiner ✍🏻
+# This is a custom oneliner scripts used for bug bounty
 
-## RECON
 ### 1. Gathering ips
  - Below commands gather iprange using ASN number & usings prips we get ips
    
